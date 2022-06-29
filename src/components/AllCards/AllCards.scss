@@ -1,0 +1,16 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -19px;
+    margin-bottom: 80px;
+    @media screen and (max-width: 1040px) {
+        margin-bottom: 48px;
+}
+}
+
+.card_active {
+    border: 4px solid #16CD53 ;
+    border-radius: 12px;
+    }

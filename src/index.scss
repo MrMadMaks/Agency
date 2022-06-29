@@ -1,0 +1,79 @@
+/*********************FONTS**********************/
+
+@font-face {
+  font-family: "Epilogue";
+  src: url("../src/fonts/Epilogue-Black.woff") format("woff"),
+  url("../src/fonts/Epilogue-Black.ttf") format("ttf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Epilogue";
+  src: url("../src/fonts/Epilogue-Bold.woff") format("woff"),
+  url("../src/fonts/Epilogue-Bold.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Epilogue";
+  src: url("../src/fonts/Epilogue-ExtraBold.woff") format("woff"),
+  url("../src/fonts/Epilogue-ExtraBold.ttf") format("ttf");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Epilogue";
+  src: url("../src/fonts/Epilogue-Regular.woff") format("woff"),
+  url("../src/fonts/Epilogue-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/*********************RESET**********************/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-weight: inherit;
+font-size: inherit;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+
+/*********************WRAPPERS**********************/
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}

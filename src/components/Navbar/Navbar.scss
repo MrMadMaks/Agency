@@ -1,0 +1,22 @@
+.tabs {
+    padding: 77px 0px;
+    &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -33px;
+    }
+    &__item {
+    padding: 0 33px;
+    }
+    &__item-link {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    color: #391400;
+    }
+    &__item-link_active {
+        color: #16CD53;
+        }
+}
+

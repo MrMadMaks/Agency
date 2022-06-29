@@ -1,0 +1,24 @@
+.main {
+    background-color: #FDF0E9;
+    padding-bottom: 184px;
+    position: relative;
+    &__btn {
+        width: 170px;
+        height: 48px;
+        background-color: #fff;
+        font-family: 'Epilogue';
+        font-weight: 900;
+        font-size: 14px;
+        color: #391400;
+        text-transform: uppercase;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 6px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        cursor: pointer;
+    }
+    &__btn:hover {
+        border: 1px solid #4FE24A;
+    }
+}
